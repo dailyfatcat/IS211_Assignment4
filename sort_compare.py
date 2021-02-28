@@ -55,7 +55,7 @@ def python_sort(a_list):
 def avg_time(sortFunc, Comment):
     random.seed(100)
 
-    list_size = [100, 500, 5000]
+    list_size = [500, 100, 5000]
     total_time = 0
     for list_size in list_size:
         for i in range(100):
